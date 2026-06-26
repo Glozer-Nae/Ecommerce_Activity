@@ -41,7 +41,7 @@ class _ProductPageState extends State<ProductPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("E-Commerse Shop"),
+        title: const Text("Alolod E-Commerse Shop"),
       ),
       body: currentNavIndex == 0 ? buildHome() : (currentNavIndex == 1 ? buildFavorites() : buildCart()), //modified
 
